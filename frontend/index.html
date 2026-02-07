@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Python Projects</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="profile">
+      <h1 id="name">Loading...</h1>
+      <p id="education"></p>
+      <p id="email"></p>
+      <div class="links">
+        <a id="github" target="_blank">GitHub</a>
+        <a id="linkedin" target="_blank">LinkedIn</a>
+        <a id="portfolio" target="_blank">Portfolio</a>
+      </div>
+    </header>
+
+    <section class="controls">
+      <input id="skillInput" placeholder="Search projects by keyword" />
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section class="skills">
+      <h2>Top Skills</h2>
+      <div id="skillsList" class="skills-list"></div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div id="projectsList" class="projects-grid"></div>
+      <p id="message" class="message"></p>
+    </section>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
