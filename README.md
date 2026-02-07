@@ -93,7 +93,7 @@ It must be explicitly executed using:
 python apply_seed
 ```
 
-## 🚀 Backend Setup (Local)
+#🚀 Backend Setup (Local)
 1️⃣ Create virtual environment
 python -m venv venv
 venv\Scripts\activate
@@ -142,7 +142,7 @@ curl "http://127.0.0.1:8000/projects?skill=python"
 curl http://127.0.0.1:8000/skills/top
 curl "http://127.0.0.1:8000/search?q=api"
 
-## 🎨 Frontend
+🎨 Frontend
 
 Minimal single-page UI
 
@@ -162,7 +162,7 @@ To run frontend:
 
 Open frontend/index.html in browser
 
-##⚠️ Known Limitations
+⚠️ Known Limitations
 
 No authentication (single-user system)
 
@@ -172,7 +172,7 @@ SQLite used for simplicity (PostgreSQL recommended for production)
 
 Minimal UI by design
 
-##🔮 Future Improvements
+🔮 Future Improvements
 
 PostgreSQL migration
 
