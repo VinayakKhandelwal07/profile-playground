@@ -129,18 +129,25 @@ PUT    /profile
 Projects by Skill
 GET /projects?skill=python
 
+
 Top Skills
 GET /skills/top
+
 
 Search Projects
 GET /search?q=movie
 
+
 🧪 Sample cURL Commands
-curl http://127.0.0.1:8000/health
-curl http://127.0.0.1:8000/profile
-curl "http://127.0.0.1:8000/projects?skill=python"
-curl http://127.0.0.1:8000/skills/top
-curl "http://127.0.0.1:8000/search?q=api"
+```curl http://127.0.0.1:8000/health```
+
+```curl http://127.0.0.1:8000/profile```
+
+```curl "http://127.0.0.1:8000/projects?skill=python"```
+
+```curl http://127.0.0.1:8000/skills/top```
+
+```curl "http://127.0.0.1:8000/search?q=api"```
 
 🎨 Frontend
 
